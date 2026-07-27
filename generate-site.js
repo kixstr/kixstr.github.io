@@ -159,11 +159,14 @@ img { max-width: 100%; height: auto; }
   text-shadow: var(--neon-cyan);
 }
 .logo-sub {
-  font-size: .72rem; color: var(--text3); margin-top: -4px;
-  letter-spacing: .5px;
+  display: inline-block; margin-top: 4px; padding: 3px 10px;
+  font-size: .68rem; color: var(--primary); letter-spacing: .5px;
+  background: rgba(0,255,255,.05);
+  border: 1px solid rgba(0,255,255,.12);
+  border-radius: 3px;
 }
-.logo-sub a { color: var(--text3); }
-.logo-sub a:hover { color: var(--primary); }
+.logo-sub a { color: var(--primary); font-weight: 600; }
+.logo-sub a:hover { color: var(--primary-light); text-shadow: var(--neon-cyan); }
 
 .header-right {
   display: flex; align-items: center; gap: 12px;
